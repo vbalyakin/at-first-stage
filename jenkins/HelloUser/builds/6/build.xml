@@ -1,0 +1,46 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.PasswordParameterValue>
+          <name>username</name>
+          <description>please, enter username</description>
+          <value>{AQAAABAAAAAQLewUtNg2BRx1TSUQRVzxq0jG9kRXMCMu9+sOefisB34=}</value>
+        </hudson.model.PasswordParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>username</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>vbalyakin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.jobConfigHistory.JobConfigBadgeAction plugin="jobConfigHistory@2.23.1">
+      <configDates>
+        <string>2019-09-09_16-46-04</string>
+        <string>2019-09-08_22-50-56</string>
+      </configDates>
+    </hudson.plugins.jobConfigHistory.JobConfigBadgeAction>
+  </actions>
+  <queueId>129</queueId>
+  <timestamp>1568036778587</timestamp>
+  <startTime>1568036778655</startTime>
+  <result>FAILURE</result>
+  <duration>3031</duration>
+  <charset>windows-1251</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Jenkins\workspace\HelloUser</workspace>
+  <hudsonVersion>2.176.3</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

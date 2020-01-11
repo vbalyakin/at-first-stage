@@ -1,0 +1,10 @@
+Started by user [8mha:////4CZdq5/NAKAwtvUT/0xOoyCWlHJI68LZJTIM+7IkQIjOAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL9sqTEnMrE7Mw8AGO400zEAAAA[0mБалякин В.А.
+Running as SYSTEM
+Building on master in workspace C:\Jenkins\workspace\HelloUser
+[HelloUser] $ cmd /c call C:\Windows\TEMP\jenkins7835985905558887632.bat
+
+C:\Jenkins\workspace\HelloUser>ECHO Hello, VBalyakin! 
+Hello, VBalyakin!
+
+C:\Jenkins\workspace\HelloUser>exit 0 
+Finished: SUCCESS

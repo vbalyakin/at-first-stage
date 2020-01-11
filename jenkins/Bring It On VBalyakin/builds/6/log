@@ -1,0 +1,73 @@
+Started by user [8mha:////4CZdq5/NAKAwtvUT/0xOoyCWlHJI68LZJTIM+7IkQIjOAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL9sqTEnMrE7Mw8AGO400zEAAAA[0mÁàëÿêèí Â.À.
+Running as SYSTEM
+Building remotely on [8mha:////4DEtnkOTKUAGFw/25iy8hKSmn4y9cfxIHeeOGFozwUbeAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6yfm5BaUlqUX6HgHxYY4+nt4A1heHRscAAAA=[0mHP_VALIK (opera chrome x64 8.1 win) in workspace c:\slave_homework\workspace\Bring It On VBalyakin
+No credentials specified
+ > C:\Program Files\Git\cmd\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/vitalliuss/helloci.git # timeout=10
+Fetching upstream changes from https://github.com/vitalliuss/helloci.git
+ > C:\Program Files\Git\cmd\git.exe --version # timeout=10
+ > C:\Program Files\Git\cmd\git.exe fetch --tags --force --progress https://github.com/vitalliuss/helloci.git +refs/heads/*:refs/remotes/origin/*
+ > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 446ae5a4fb9798821be65628da0b587e4e1f04e3 (refs/remotes/origin/master)
+ > C:\Program Files\Git\cmd\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\cmd\git.exe checkout -f 446ae5a4fb9798821be65628da0b587e4e1f04e3
+Commit message: "mention cobertura issue in README"
+ > C:\Program Files\Git\cmd\git.exe rev-list --no-walk 446ae5a4fb9798821be65628da0b587e4e1f04e3 # timeout=10
+[Bring It On VBalyakin] $ cmd.exe /C "c:\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin\mvn.cmd -f Java/pom.xml test && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.github.vitalliuss.helloci:hello-ci >---------------
+[INFO] Building hello-ci 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4A+SHd3KAzTLamhgBxODKjWCZN+bi0Mx+2UF+ImQoZeIAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hello-ci ---
+[8mha:////4EiHuogKXbZA1C6Lv9qOsCwLs5EoPREjAMdMILV0jQ/DAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory c:\slave_homework\workspace\Bring It On VBalyakin\Java\src\main\resources
+[INFO] 
+[8mha:////4A+SHd3KAzTLamhgBxODKjWCZN+bi0Mx+2UF+ImQoZeIAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ hello-ci ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4A+SHd3KAzTLamhgBxODKjWCZN+bi0Mx+2UF+ImQoZeIAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hello-ci ---
+[8mha:////4EiHuogKXbZA1C6Lv9qOsCwLs5EoPREjAMdMILV0jQ/DAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory c:\slave_homework\workspace\Bring It On VBalyakin\Java\src\test\resources
+[INFO] 
+[8mha:////4A+SHd3KAzTLamhgBxODKjWCZN+bi0Mx+2UF+ImQoZeIAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ hello-ci ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4A+SHd3KAzTLamhgBxODKjWCZN+bi0Mx+2UF+ImQoZeIAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:3.0.0-M1:test (default-test) @ hello-ci ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+FATAL: command execution failed
+java.nio.channels.ClosedChannelException
+	at org.jenkinsci.remoting.protocol.NetworkLayer.onRecvClosed(NetworkLayer.java:154)
+	at org.jenkinsci.remoting.protocol.impl.NIONetworkLayer.ready(NIONetworkLayer.java:179)
+	at org.jenkinsci.remoting.protocol.IOHub$OnReady.run(IOHub.java:795)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:59)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused: java.io.IOException: Backing channel 'JNLP4-connect connection from systweak.com/127.0.0.1:59123' is disconnected.
+	at hudson.remoting.RemoteInvocationHandler.channelOrFail(RemoteInvocationHandler.java:214)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:283)
+	at com.sun.proxy.$Proxy87.isAlive(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.isAlive(Launcher.java:1150)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:1142)
+	at hudson.Launcher$ProcStarter.join(Launcher.java:470)
+	at hudson.tasks.Maven.perform(Maven.java:368)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:741)
+	at hudson.model.Build$BuildExecution.build(Build.java:206)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:504)
+	at hudson.model.Run.execute(Run.java:1818)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Build step 'Invoke top-level Maven targets' marked build as failure
+ERROR: Step ‘Archive the artifacts’ failed: no workspace for Bring It On VBalyakin #6
+Finished: FAILURE

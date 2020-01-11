@@ -1,0 +1,31 @@
+Started by user [8mha:////4CZdq5/NAKAwtvUT/0xOoyCWlHJI68LZJTIM+7IkQIjOAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL9sqTEnMrE7Mw8AGO400zEAAAA[0mБалякин В.А.
+Running as SYSTEM
+Building on master in workspace C:\Jenkins\workspace\HelloUser
+No credentials specified
+ > c:\Program Files\Git\cmd\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > c:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/vitalliuss/helloci.git # timeout=10
+Fetching upstream changes from https://github.com/vitalliuss/helloci.git
+ > c:\Program Files\Git\cmd\git.exe --version # timeout=10
+ > c:\Program Files\Git\cmd\git.exe fetch --tags --force --progress https://github.com/vitalliuss/helloci.git +refs/heads/*:refs/remotes/origin/*
+ > c:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > c:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 446ae5a4fb9798821be65628da0b587e4e1f04e3 (refs/remotes/origin/master)
+ > c:\Program Files\Git\cmd\git.exe config core.sparsecheckout # timeout=10
+ > c:\Program Files\Git\cmd\git.exe checkout -f 446ae5a4fb9798821be65628da0b587e4e1f04e3
+Commit message: "mention cobertura issue in README"
+ > c:\Program Files\Git\cmd\git.exe rev-list --no-walk 446ae5a4fb9798821be65628da0b587e4e1f04e3 # timeout=10
+[HelloUser] $ cmd /c call C:\Windows\TEMP\jenkins7102013922999027613.bat
+
+C:\Jenkins\workspace\HelloUser>ECHO Hello, HP_VALIK$! 
+Hello, HP_VALIK$!
+
+C:\Jenkins\workspace\HelloUser>exit 0 
+[HelloUser] $ cmd.exe /C "c:\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin\mvn.cmd -f pom.xml clean cobertura:cobertura && exit %%ERRORLEVEL%%"
+POM file "pom.xml" specified the -f/--file command-line argument does not exist 
+Build step 'Invoke top-level Maven targets' marked build as failure
+[Cobertura] Publishing Cobertura coverage report...
+
+Publishing Coverage report....
+No reports were found
+Finished: FAILURE

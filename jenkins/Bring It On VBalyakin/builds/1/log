@@ -1,0 +1,23 @@
+Started by user [8mha:////4CZdq5/NAKAwtvUT/0xOoyCWlHJI68LZJTIM+7IkQIjOAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL9sqTEnMrE7Mw8AGO400zEAAAA[0mБалякин В.А.
+Running as SYSTEM
+Building in workspace C:\Jenkins\workspace\Bring It On VBalyakin
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/vitalliuss/helloci.git
+ > c:\Program Files\Git\cmd\git.exe init C:\Jenkins\workspace\Bring It On VBalyakin # timeout=10
+Fetching upstream changes from https://github.com/vitalliuss/helloci.git
+ > c:\Program Files\Git\cmd\git.exe --version # timeout=10
+ > c:\Program Files\Git\cmd\git.exe fetch --tags --force --progress https://github.com/vitalliuss/helloci.git +refs/heads/*:refs/remotes/origin/*
+ > c:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/vitalliuss/helloci.git # timeout=10
+ > c:\Program Files\Git\cmd\git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > c:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/vitalliuss/helloci.git # timeout=10
+Fetching upstream changes from https://github.com/vitalliuss/helloci.git
+ > c:\Program Files\Git\cmd\git.exe fetch --tags --force --progress https://github.com/vitalliuss/helloci.git +refs/heads/*:refs/remotes/origin/*
+ > c:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > c:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 446ae5a4fb9798821be65628da0b587e4e1f04e3 (refs/remotes/origin/master)
+ > c:\Program Files\Git\cmd\git.exe config core.sparsecheckout # timeout=10
+ > c:\Program Files\Git\cmd\git.exe checkout -f 446ae5a4fb9798821be65628da0b587e4e1f04e3
+Commit message: "mention cobertura issue in README"
+First time build. Skipping changelog.
+Finished: SUCCESS
