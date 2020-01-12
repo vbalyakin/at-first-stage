@@ -1,0 +1,3 @@
+[submodule "git-parent-copy"]
+	path = git-parent-copy
+	url = https://github.com/V-Balyakin/git-parent-copy
