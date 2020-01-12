@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class WorkWithReverseText {
+public class Reverser {
     public static void main(String[] args) throws IOException {
         getTextFileInReverseOrder(getDividedTextFromUserOnStrings());
     }

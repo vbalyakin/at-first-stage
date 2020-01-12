@@ -2,7 +2,7 @@ package fundamentals;
 
 import java.util.Scanner;
 
-public class NumberOperations {
+public class ArrayMathematician {
     public static void main(String[] args) {
         int[] arrayFromUser = getArrayWithNumbersFromUser();
         printUsersNumbers(arrayFromUser);

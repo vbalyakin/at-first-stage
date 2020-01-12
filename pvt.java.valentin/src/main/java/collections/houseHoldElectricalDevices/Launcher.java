@@ -6,7 +6,7 @@ import collections.houseHoldElectricalDevices.homeaccount.Sorter;
 
 import java.util.LinkedList;
 
-public class Launch {
+public class Launcher {
     public static void main(String[] args) {
         LinkedList<ElectricalDevice> listOfDevicesInHome = Adder.addDeviceInHome();
         Printer.printAllDevicesInHome(listOfDevicesInHome);

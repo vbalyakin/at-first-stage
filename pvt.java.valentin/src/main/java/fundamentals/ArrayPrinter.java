@@ -2,7 +2,7 @@ package fundamentals;
 
 import java.util.Scanner;
 
-public class CommandLineArguments {
+public class ArrayPrinter {
     public static void main(String[] args) {
         int[] arrayWithNumbersFromUser = getArrayWithNumbersFromUser();
         printArrayInDirectOrder(arrayWithNumbersFromUser);

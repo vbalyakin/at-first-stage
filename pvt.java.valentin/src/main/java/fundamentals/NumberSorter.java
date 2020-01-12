@@ -2,7 +2,7 @@ package fundamentals;
 
 import java.util.Scanner;
 
-public class OptionalTask {
+public class NumberSorter {
     public static void main(String[] args) {
         String[] arrayOfNumbers = getArrayWithNumbersFromUser();
         printArray(arrayOfNumbers);

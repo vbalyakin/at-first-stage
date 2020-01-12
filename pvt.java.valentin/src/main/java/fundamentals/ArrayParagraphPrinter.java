@@ -2,7 +2,7 @@ package fundamentals;
 
 import java.util.Scanner;
 
-public class RandomArray {
+public class ArrayParagraphPrinter {
     public static void main(String[] args) {
         int[] randomArray = getRandomArray();
         printArrayInOneLine(randomArray);

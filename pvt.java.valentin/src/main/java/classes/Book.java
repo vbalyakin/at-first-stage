@@ -1,5 +1,7 @@
 package classes;
 
+import java.util.Scanner;
+
 public class Book {
     private int id;
     private String title;
@@ -120,5 +122,73 @@ public class Book {
 
     public String getBindingType() {
         return bindingType;
+    }
+
+    public static String getAuthorFromUser() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Which author book do you want to find? \n*Please write the name of the author with a space");
+        return scanner.next() + " " + scanner.next();
+    }
+
+    public static String getPublisherFromUser() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Which publisher book do you want to find? \n* if there are several words in the name of the publisher - write them with a space");
+        return scanner.next();
+    }
+
+    public static int getYearOfPublishingFromUser() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Books after what year do you want to find?");
+        return scanner.nextInt();
+    }
+
+    public static void findBooksByAuthor(Book[] listOfBooks, String author) {
+        int counter = 0;
+        System.out.println("Book search result for a given author: ");
+        for (Book book : listOfBooks) {
+            String currentBookAuthor = book.getAuthor();
+            boolean equalsOfAuthors = currentBookAuthor.equalsIgnoreCase(author);
+            if (equalsOfAuthors) {
+                System.out.println(book);
+            } else {
+                counter++;
+            }
+            if (counter >= listOfBooks.length) {
+                System.out.println("No books found");
+            }
+        }
+    }
+
+    public static void findBooksByPublisher(Book[] listOfBooks, String publisher) {
+        int numberOfBooks = 0;
+        System.out.println("Book search results for a given publisher: ");
+        for (Book currentBook : listOfBooks) {
+            String currentBookPublisher = currentBook.getPublisher();
+            boolean toPrint = currentBookPublisher.equalsIgnoreCase(publisher);
+            if (toPrint) {
+                System.out.println(currentBook);
+            } else {
+                numberOfBooks++;
+            }
+            if (numberOfBooks >= listOfBooks.length) {
+                System.out.println("No books found");
+            }
+        }
+    }
+
+    public static void findBooksAfterGivenYear(Book[] listOfBooks, int yearOfPublishing) {
+        int numberOfBooks = 0;
+        System.out.println("Book search result after a given year:");
+        for (Book book : listOfBooks) {
+            int currentBookYear = book.getYearOfPublishing();
+            if (currentBookYear > yearOfPublishing) {
+                System.out.println(book.getTitle() + " " + book.getYearOfPublishing());
+            } else {
+                numberOfBooks++;
+            }
+            if (numberOfBooks >= listOfBooks.length) {
+                System.out.println("No books found");
+            }
+        }
     }
 }

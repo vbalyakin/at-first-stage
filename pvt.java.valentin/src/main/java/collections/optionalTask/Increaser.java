@@ -5,7 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
-public class WorkWithIncreaseStrings {
+public class Increaser {
     public static void main(String[] args) throws IOException {
         TreeMap<Integer, String> mapForSortStringsFromPoem = putStringsAndLengthInTreeMap(getDividedTextFromUserOnStrings());
         getTextFileWithIncreasingStringsLength(mapForSortStringsFromPoem);
